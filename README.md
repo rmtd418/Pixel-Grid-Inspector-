@@ -28,7 +28,7 @@ This repository contains two editions of the project:
 
 A Python reference implementation for local use, algorithm work, and future backend-oriented tooling.
 
-### `site-static/`
+### `docs/`
 
 A browser-first static edition intended for public demos and GitHub Pages deployment.
 
@@ -46,7 +46,7 @@ Keeping both in one repository makes the project easier to understand and easier
 ```text
 .
 ├─ python-app/
-├─ site-static/
+├─ docs/
 ├─ .gitignore
 ├─ README.md
 └─ README.zh-CN.md
@@ -56,7 +56,7 @@ Keeping both in one repository makes the project easier to understand and easier
 
 If you want to publish a public website with GitHub Pages, publish:
 
-- `site-static/`
+- `docs/`
 
 Do not publish:
 
@@ -80,7 +80,7 @@ Then open:
 ### Static Edition
 
 ```bash
-cd site-static
+cd docs
 python -m http.server 8020
 ```
 
@@ -91,6 +91,6 @@ Then open:
 ## Current Status
 
 - `python-app/` is the reference implementation.
-- `site-static/` is the public web target.
+- `docs/` is the public web target.
 
 If future work focuses on GitHub Pages and browser-side detection, that work should primarily happen in `site-static/`.
