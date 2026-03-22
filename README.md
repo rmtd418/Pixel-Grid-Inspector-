@@ -37,7 +37,7 @@ A browser-first static edition intended for public demos and GitHub Pages deploy
 The two editions serve different goals:
 
 - `python-app/` is the better choice for local analysis and algorithm iteration.
-- `site-static/` is the better choice for a shareable public website with no backend dependency.
+- `docs/` is the better choice for a shareable public website with no backend dependency.
 
 Keeping both in one repository makes the project easier to understand and easier to maintain.
 
