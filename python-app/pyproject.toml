@@ -1,0 +1,25 @@
+[project]
+name = "pixel-grid-resolution-view"
+version = "0.1.0"
+description = "Pixel art grid resolution detector with FastAPI"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.128.0",
+    "uvicorn>=0.35.0",
+    "numpy>=2.2.6",
+    "opencv-python>=4.13.0.90",
+    "pillow>=12.1.1",
+    "scipy>=1.15.3",
+    "scikit-image>=0.25.2",
+    "python-multipart>=0.0.20",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.2",
+    "httpx>=0.28.1",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
