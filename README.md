@@ -8,7 +8,7 @@ Pixel Grid Inspector is an open-source project for inspecting pixel-art and pixe
 
 ## Demo
 
-- GitHub Pages: `https://rmtd418.github.io/Pixel-Grid-Inspector-/`
+- - GitHub Pages: [https://rmtd418.github.io/Pixel-Grid-Inspector/](https://rmtd418.github.io/Pixel-Grid-Inspector/)
 
 Replace the URL above after deployment.
 
